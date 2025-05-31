@@ -14,11 +14,12 @@ VM"), the system uses a large language model (via Groq API) to:
 
 ## Why this project?
 
-Humor is one of the hardest forms of generative language---subjective,
+Humor is one of the hardest forms of generative language,insanely subjective,
 nuanced, and deeply cultural. Instead of treating it as a black-box text
 generation task, this project breaks humor into structured components
 using PlanSearch. The pipeline is modular, inspectable, and aligns with
 modern LLM evaluation research.
+Felt like this was a good solution to better and more robust open-ended generation responses evaluation
 
 ------------------------------------------------------------------------
 
@@ -29,6 +30,10 @@ modern LLM evaluation research.
 ------------------------------------------------------------------------
 
 ## How it Works
+<img width="348" alt="Screenshot 2025-05-31 at 11 06 05 AM" src="https://github.com/user-attachments/assets/3cabfdf8-bb03-4378-a5bd-f5bfa2608aac" />
+
+
+
 
   -----------------------------------------------------------------------
   Step                   Description
@@ -134,6 +139,10 @@ Scoring jokes with LLM-as-a-Judge...
 
 Top Funniest Jokes: 1. \[9/10\] Tony the Penguin isn't in IT, but he's
 great at ice-breaking. Plan: Penguin as mafia hitman
+
+<img width="1077" alt="Screenshot 2025-05-31 at 12 05 59 PM" src="https://github.com/user-attachments/assets/986e4b37-9d4a-42e7-a1d7-705f9443cd71" />
+
+
 
 ------------------------------------------------------------------------
 
